@@ -22,6 +22,9 @@ persistent=yes
 load-plugins=pylint.extensions.docparams
 accept-no-param-doc=no
 
+# Fail if the score drops below 9
+fail-under=9
+
 [MESSAGES CONTROL]
 
 # Disable the message, report, category or checker with the given id(s). You
